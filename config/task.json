@@ -1,0 +1,14 @@
+{
+  "apis": [
+    {
+      "name": "pmdc-tunnel",
+      "attributes": {
+        "upstream_url": "https://pmdc-tunnel-staging.herokuapp.com",
+        "uris": "/app,/api,/commons,/assets,/file-upload,/error",
+        "preserve_host": false,
+        "strip_uri": false,
+        "methods": "GET, HEAD, POST"
+      }
+    }
+  ]
+}

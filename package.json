@@ -1,0 +1,19 @@
+{
+  "name": "Kong-Axios",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "standard": "*"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "env-cmd": "^7.0.0"
+  },
+  "scripts": {
+    "build": "babel source --presets babel-preset-es2015 --out-dir build",
+    "test": "standard",
+    "start": "node src/main.js",
+    "env-run": "env-cmd .env node src/main.js"
+  }
+}
